@@ -161,3 +161,6 @@ bar {
         status_command ~/.i3/.i3status.sh
 }
 
+exec xsetroot -solid black
+exec dropbox start
+exec cryptkeeper
