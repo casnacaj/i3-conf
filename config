@@ -123,7 +123,7 @@ bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
 # Lock screen.
-bindsym $mod+Shift+p exec "i3lock -c 000000 -i ~/.i3/wp2.png"
+bindsym $mod+Shift+p exec "i3lock -c 000000 -i ~/Dropbox/images/i3/wp2.png"
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
@@ -154,7 +154,7 @@ bindsym $mod+r mode "resize"
 bindsym Ctrl+Shift+space exec "sh ~/.i3/.i3xkbswitch.sh"
 
 # Display help.
-bindsym $mod+q exec "sxiv -f ~/.i3/keyboard-layer.png"
+bindsym $mod+q exec "sxiv -f ~/Dropbox/images/i3/keyboard-layer.png"
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
